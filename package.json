@@ -1,6 +1,10 @@
 {
   "name": "app-node-ts-template",
   "version": "0.0.1",
+  "description": "A nice, simple template for TS apps",
+  "author": "shoedler",
+  "license": "Apache-2.0",
+  "main": "dist/bundle.js",
   "scripts": {
     "watch:webpack": "webpack --watch",
     "watch:sass": "sass --watch --update --style=expanded scss:dist",
